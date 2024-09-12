@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title> Music Player</title>
+    <script src="https://kit.fontawesome.com/bf12b6dbeb.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Header part  -->
+    <header>
+          <div id="head_logo">
+            <img src="Images/head_logo.jpg" alt="">
+            <p>Ninja <br> <span><strong>Studio</strong></span></p>
+          </div>
+          <div id="favourites">
+            <p>Favourites</p>
+
+          </div>
+         
+          <div class="search_bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" id="search" name="q" placeholder="Search">
+          </div>
+          <div id="bell">
+            <i class="fa-solid fa-bell"></i>
+
+          </div>
+          <div id="profile">
+            <img src="Images/Mohit.jpg" alt="">
+
+          </div>      
+    </header>
+<!-- Main Content -->
+    <div class="main_box">
+      <!-- Left Side Content -->
+      <div class="container">
+        <div class="carousel">
+          <input type="radio" name="slider" id="item-1" checked>
+          <input type="radio" name="slider" id="item-2">
+          <input type="radio" name="slider" id="item-3">
+        <div class="cards">
+        <label class="card" for="item-1" id="song-1">
+        <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+        </label>
+         <label class="card" for="item-2" id="song-2">
+         <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+        </label>
+        <label class="card" for="item-3" id="song-3">
+         <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+         </label>
+    </div>
+  
+        </div>
+        <div class="LR Heading">
+          <p class="font_family"><span><bold>L</bold></span>atest Release</p>
+        </div>
+  
+        <div  class="latest_release">
+          <div class="releases row1">
+            <div class="test" >
+              <img src="Images/LatestRelease.avif" class="LR_img">
+              <div class="play1">
+                <a href="#bottomContent"> 
+                  <i class="fa-solid fa-play play-icon"></i>
+                </a>
+                </div>
+            </div>
+            
+            <div id="bottomContent" class="hiddenContent">
+              <div class="container-audio">
+                <audio controls autoplay >
+                  <source src="Music/Akhiyan Gulab.mp3" type="audio/mp3">
+                  
+              </audio>
+              </div>
+            </div>
+            
+            
+            
+            <div class="LR_img_content">
+              <p class="font_family">Onism</p>
+            <p class="grey_color">AUG 11, 2017</p>
+            
+            
+            </div>
+
+            <div class="dropdown">
+
+              <div class="dot-icon">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+              <div class="dropdown-content">
+                <a href="#">
+                  <img src="Images/Play.jpg" >
+                  Play
+                </a>
+                <a href="#">
+                  <img src="Images/Plus.jpg"  >
+                  Add To Queue
+                </a>
+                <a href="#">
+                  <img src="Images/AddFav.png" >
+                  Add To Favourites
+                </a>
+                <a href="#">
+                  <img src="Images/GetInfo.jpg"  >
+                  Get Info
+                </a>
+              </div>
+              <div class="time">
+                <p class="grey_color ">4:44</p>
+              </div>
+            </div>
+          </div>
+          <div class="releases row1">
+            <div class="test" >
+              <img src="Images/LatestRelease.avif" class="LR_img">
+              <div class="play1">
+                <a href="#bottomContent"> 
+                  <i class="fa-solid fa-play play-icon"></i>
+                </a>
+                </div>
+            </div>
+            <div id="bottomContent" class="hiddenContent">
+              <div class="container-audio">
+                <audio controls  loop autoplay></audio>
+              </div>
+            </div>
+            <div class="LR_img_content">
+              <p class="font_family">Onism</p>
+            <p class="grey_color">AUG 11, 2017</p>
+            </div>
+
+            <div class="dropdown">
+
+              <div class="dot-icon">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+              <div class="dropdown-content">
+                <a href="#">
+                  <img src="Images/Play.jpg" >
+                  Play
+                </a>
+                <a href="#">
+                  <img src="Images/Plus.jpg"  >
+                  Add To Queue
+                </a>
+                <a href="#">
+                  <img src="Images/AddFav.png" >
+                  Add To Favourites
+                </a>
+                <a href="#">
+                  <img src="Images/GetInfo.jpg"  >
+                  Get Info
+                </a>
+              </div>
+              <div class="time">
+                <p class="grey_color ">4:44</p>
+              </div>
+            </div>
+  
+          </div>
+          <div class="releases row2 ">
+            <div class="test" >
+              <img src="Images/LatestRelease.avif" class="LR_img">
+              <div class="play1">
+                <a href="#bottomContent"> 
+                  <i class="fa-solid fa-play play-icon"></i>
+                </a>
+                </div>
+            </div>
+            <div id="bottomContent" class="hiddenContent">
+              <div class="container-audio">
+                <audio controls  loop autoplay></audio>
+              </div>
+            </div>
+            <div class="LR_img_content">
+              <p class="font_family">Onism</p>
+            <p class="grey_color">AUG 11, 2017</p>
+            </div>
+
+            <div class="dropdown">
+
+              <div class="dot-icon">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+              <div class="dropdown-content">
+                <a href="#">
+                  <img src="Images/Play.jpg" >
+                  Play
+                </a>
+                <a href="#">
+                  <img src="Images/Plus.jpg"  >
+                  Add To Queue
+                </a>
+                <a href="#">
+                  <img src="Images/AddFav.png" >
+                  Add To Favourites
+                </a>
+                <a href="#">
+                  <img src="Images/GetInfo.jpg"  >
+                  Get Info
+                </a>
+              </div>
+              <div class="time">
+                <p class="grey_color ">4:44</p>
+              </div>
+            </div>
+  
+          </div>
+          <div class="releases row2">
+            <div class="test" >
+              <img src="Images/LatestRelease.avif" class="LR_img">
+              <div class="play1">
+                <a href="#bottomContent"> 
+                  <i class="fa-solid fa-play play-icon"></i>
+                </a>
+                </div>
+            </div>
+            <div id="bottomContent" class="hiddenContent">
+              <div class="container-audio">
+                <audio controls  loop autoplay></audio>
+              </div>
+            </div>
+            <div class="LR_img_content">
+              <p class="font_family">Onism</p>
+            <p class="grey_color">AUG 11, 2017</p>
+            </div>
+
+            <div class="dropdown">
+
+              <div class="dot-icon">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                
+              </div>
+              <div class="dropdown-content">
+                <a href="#">
+                  <img src="Images/Play.jpg" >
+                  Play
+                </a>
+                <a href="#">
+                  <img src="Images/Plus.jpg"  >
+                  Add To Queue
+                </a>
+                <a href="#">
+                  <img src="Images/AddFav.png" >
+                  Add To Favourites
+                </a>
+                <a href="#">
+                  <img src="Images/GetInfo.jpg"  >
+                  Get Info
+                </a>
+              </div>
+              
+              <div class="time">
+                <p class="grey_color ">4:44</p>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+        <div class="PA Heading">
+          <p class="font_family"><span><bold>P</bold></span>opular Artists</p>
+        </div>
+
+        <div class="artists">
+          <div class="singer">
+            <div class="test2">
+            <img src="Images/Arijit_Singh.jpg" alt="">
+            
+            <div class="play2">
+              <a href="Single Singer Page.html"><i class="fa-solid fa-play play-icon"></i></a>
+              
+            </div>
+          </div>
+          <p class="font_family">Arijit Singh</p>
+          </div>
+          <div class="singer">
+            <img src="Images/kishore-kumar.jpg" alt="">
+            <p class="font_family ">Kishore kumar</p>
+          </div>
+          <div class="singer">
+            <img src="Images/Mohammed_Rafi.jpg" alt="">
+            <p class="font_family">Mohammed Rafi</p>
+          </div>
+          <div class="singer">
+            <img src="Images/Shreya Ghoshal.jpg" alt="">
+            <p class="font_family">Shreya Ghoshal</p>
+          </div>
+          <div class="singer">
+            <img src="Images/Sonu Nigam.jpg" alt="">
+            <p class="font_family">Sonu Nigam</p>
+          </div>
+          <div class="singer">
+            <img src="Images/Udit Narayan.jpg" alt="">
+            <p class="font_family">Udit Narayan</p>
+          </div>
+
+        </div>
+
+       
+
+        <div class="musicType">
+          <div class="station" >
+            <img src="Images/Station.jpg" alt="" style="border-radius: 5%;" height="130px" width="130px">
+            
+          </div>
+          <div class="musicVaraites">
+            <img src="Images/Love Music.jpg" alt="">
+            <span>Love</span>
+          </div>
+          <div class="musicVaraites">
+            <img src="Images/retro music.avif" alt="">
+            <span>Retro</span>
+          </div>
+          <div class="musicVaraites">
+            <img src="Images/Chill Music.jpg" alt="">
+            <span>Chill</span>
+          </div>
+          <div class="musicVaraites ">
+            <img src="Images/WorkOut Music.jpg" alt="">
+            <span class="workout">Workout</span>
+          </div>
+          <div class="musicVaraites">
+            <img src="Images/Rock Music.jpg" alt="">
+            <span>Rock</span>
+          </div>
+          <div class="musicVaraites">
+            <img src="Images/Pop Music.jpg" alt="">
+            <span>Pop</span>
+          </div>
+
+        </div>
+
+        <div class="mood music">
+          <div class="moods party">
+            <img src="Images/party.jpg" alt="">
+            <p>Party</p>
+          </div>
+          <div class="moods electronic">
+            <img src="Images/electronic.jpg" alt="">
+            <p>Electronic</p>
+          </div>
+          <div class="moods Road_Trip">
+            <img src="Images/roadtrip.jpg" alt="">
+            <p>Road Trip</p>
+          </div>
+        </div>
+
+        <div class=" LE Heading">
+          <p class="font_family"><span><bold>L</bold></span>atest English</p>
+        </div>
+
+        <div class="Latest English">
+          <div class="Eng Songs ">
+            <img src="Images/Album-cover-1.avif" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+          <div class="Eng Songs ">
+            <img src="Images/Album-cover-2.jpg" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+          <div class="Eng Songs ">
+            <img src="Images/Album-cover-3.jpg" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+          <div class="Eng Songs ">
+            <img src="Images/Album-cover-4.jpg" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+          <div class="Eng Songs ">
+            <img src="Images/Album-cover-5.jpg" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+          <div class="Eng Songs ">
+            <img src="Images/Album-cover-6.jpg" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+
+        </div>
+        <div class=" HE Heading">
+          <p class="font_family"><span><bold>L</bold></span>atest Hindi</p>
+        </div>
+
+        <div class="Latest Hindi">
+          <div class="Hindi Songs ">
+            <img src="Images/Album-cover-1.avif" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+          <div class="Hindi Songs ">
+            <img src="Images/Album-cover-2.jpg" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+          <div class="Hindi Songs ">
+            <img src="Images/Album-cover-3.jpg" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+          <div class="Hindi Songs ">
+            <img src="Images/Album-cover-4.jpg" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+          <div class="Hindi Songs ">
+            <img src="Images/Album-cover-5.jpg" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+          <div class="Hindi Songs ">
+            <img src="Images/Album-cover-6.jpg" alt="">
+            <p class="Eng_P">Onism</p>
+            <p class="Eng_P_Gray">AUG 11, 2017</p>
+          </div>
+
+        </div>
+  
+      </div>
+
+
+     <!-- Right Side Content -->
+      <aside >
+       <div class="Queue Heading">
+        <p>Queue</p>
+        
+        <div class="arrow">
+          <p id="arrow">Queue</p> 
+        </div>
+        <div class="dropdown1">
+          <div class="hover">
+          <i class="fa-solid fa-angle-down green"></i>
+           <div class="dropdown-content1">
+            <a href="#">Playlist</a>
+            <a href="#">Favourite Songs</a>
+          </div>
+        </div>
+        </div>
+
+       </div>
+
+
+       <div class="Queue_Content" >
+        <div class="Que_Content">
+          <p class="number">01</p>
+          <img src="Images/Album-cover-1.avif" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">02</p>
+          <img src="Images/Album-cover-2.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">03</p>
+          <img src="Images/Album-cover-3.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">04</p>
+          <img src="Images/Album-cover-4.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">05</p>
+          <img src="Images/Album-cover-5.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">06</p>
+          <img src="Images/Album-cover-6.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">07</p>
+          <img src="Images/Album-cover-1.avif" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">08</p>
+          <img src="Images/Album-cover-2.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">09</p>
+          <img src="Images/Album-cover-3.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">10</p>
+          <img src="Images/Album-cover-4.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">11</p>
+          <img src="Images/Album-cover-5.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">12</p>
+          <img src="Images/Album-cover-6.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">13</p>
+          <img src="Images/Album-cover-1.avif" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">14</p>
+          <img src="Images/Album-cover-2.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">15</p>
+          <img src="Images/Album-cover-3.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">16</p>
+          <img src="Images/Album-cover-4.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">17</p>
+          <img src="Images/Album-cover-5.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">18</p>
+          <img src="Images/Album-cover-6.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">19</p>
+          <img src="Images/Album-cover-1.avif" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">20</p>
+          <img src="Images/Album-cover-2.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">21</p>
+          <img src="Images/Album-cover-3.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">22</p>
+          <img src="Images/Album-cover-4.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">23</p>
+          <img src="Images/Album-cover-5.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+        </div>
+        <div class="Que_Content">
+          <p class="number">24</p>
+          <img src="Images/Album-cover-6.jpg" alt="">
+          <div>
+            <p class="Content_P1">Mirage</p>
+            <p class="Content_P2"> Else </p>
+          </div>
+
+          <div class="heart">
+            <i class="fa-regular fa-heart heartshape"></i>
+          </div>
+
+       </div>
+       </div>
+      </aside>
+    </div>
+    
+
+
+  </body>
+
+  <script src="script.js"></script>
+</html>
